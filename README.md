@@ -24,12 +24,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 
-### `npm run deploy`
-
-Builds the app for production to the `build` folder.<br />
-
-Deploys the build folder to S3 bucket from cloud9 environment
-
 ### Base Typos
 
 ```
