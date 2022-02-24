@@ -12,18 +12,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-
 ### Base Typos
 
 ```
@@ -47,22 +35,9 @@ export const BaseHKGroteskMediumText = styled(BaseHKGroteskText)`
 ## This Repo is configured with
 
 - Tailwind setup
-- Emotion setup
-- Supports typescript with small configuration changes
-- Test cases setup
+- Styled Components
 - Mobx setup
+- twin macro
 - Lintstaged and Prettier setup with precommit hook
-- Storybook setup
 - React router setup
-- Folder structure is optimised for small scale applications
-
-## To be included in next version
-
-- Eslint setup
-- Include in precommit hook - eslint
-- Remove tailwind.js and maintain tailwind.config.js separately
-- Separate typescript and maintain it in a different branch - with tslint setup
-- Update tailwind macro with twin macro
-- Maintain .editorconfig
-- Maintain .eslintignore
-- Add engines config
+- Folder structure is optimized for small scale applications

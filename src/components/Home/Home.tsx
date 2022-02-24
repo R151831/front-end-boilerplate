@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ReactLogo from '../../Icons/ReactLogo'
+import ReactLogo from '../../Icons/ReactLogoIcon'
 
 export const Home = () => (
   <div className='app'>

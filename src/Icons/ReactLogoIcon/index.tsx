@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-interface ReactLogoProps {
+interface ReactLogoIconProps {
   className?: string
 }
 
-function ReactLogo({ className }: ReactLogoProps) {
+function ReactLogoIcon({ className }: ReactLogoIconProps) {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
@@ -20,4 +20,4 @@ function ReactLogo({ className }: ReactLogoProps) {
   )
 }
 
-export default ReactLogo
+export default ReactLogoIcon

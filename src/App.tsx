@@ -1,14 +1,11 @@
-import './index.css'
-
 import { Provider } from 'mobx-react'
 import React from 'react'
 import { BrowserRouter, Route, Router, Switch } from 'react-router-dom'
 import { Slide, ToastContainer } from 'react-toastify'
 
-import ReactLogo from './Icons/ReactLogo'
-import CounterWithToast from './routes/CounterWithToast'
-import stores from './stores'
 import Home from './components/Home'
+import stores from './stores'
+import './index.css'
 
 const App = () => (
   <Provider {...stores}>
