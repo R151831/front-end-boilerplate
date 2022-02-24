@@ -19,7 +19,7 @@
     "emitDecoratorMetadata": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", ".eslintrc.json"],
+  "include": ["src", ".eslintrc.json", "tailwind.config.js"],
   "exclude": [
     "node_modules/@storybook",
     "node_modules",

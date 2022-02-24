@@ -1,7 +1,6 @@
 import React from 'react'
 
 import ReactLogo from '../../Icons/ReactLogo'
-import CounterWithToast from '../../routes/CounterWithToast'
 
 export const Home = () => (
   <div className='app'>
@@ -18,7 +17,6 @@ export const Home = () => (
       >
         Learn React
       </a>
-      <CounterWithToast />
     </header>
   </div>
 )

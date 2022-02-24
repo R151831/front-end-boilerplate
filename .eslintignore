@@ -13,5 +13,4 @@ styles.tsx
 styleguide/
 *.gen.js
 craco.config.js
-tailwind.config.js
 postcss.config.js
