@@ -1,4 +1,4 @@
-export interface TodoObject {
+export interface SampleTodoType {
   id: number
   title: string
   isCompleted: boolean

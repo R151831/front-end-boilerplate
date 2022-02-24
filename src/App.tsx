@@ -1,26 +1,30 @@
-import React from 'react'
 import './index.css'
-import ReactLogo from './Icons/ReactLogo'
 
-const App = () => {
-  return (
-    <div className='app'>
-      <header className='bg-indigo-900 app-header'>
-        <ReactLogo className='app-logo' />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className='app-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  )
-}
+import { Provider } from 'mobx-react'
+import React from 'react'
+import { BrowserRouter, Route, Router, Switch } from 'react-router-dom'
+import { Slide, ToastContainer } from 'react-toastify'
+
+import ReactLogo from './Icons/ReactLogo'
+import CounterWithToast from './routes/CounterWithToast'
+import stores from './stores'
+import Home from './components/Home'
+
+const App = () => (
+  <Provider {...stores}>
+    <BrowserRouter>{<Home />}</BrowserRouter>
+    <ToastContainer
+      position='bottom-center'
+      autoClose={1000}
+      closeOnClick
+      rtl={false}
+      transition={Slide}
+      draggable
+      pauseOnHover
+      hideProgressBar
+      newestOnTop
+    />
+  </Provider>
+)
 
 export default App
